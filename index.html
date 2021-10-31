@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/iconsfont.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" href="img/papaya.png" type="image/png">
+  <title>Ostrovsky Maxim CV</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header_container">
+      <a class="logo" href="#">M</a>
+
+      <button class="burger">
+        <span class="burger_line"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a class="nav_link nav_link--active" href="#greeting">Home</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="#about">About</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="#courses">Courses</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="#skills">Skills</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="#code">Code example</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="#experience">Experience</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="#additionally">Additionally</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- greeting -->
+    <section class="greeting section" id="greeting">
+      <div class="container greeting_container">
+        <h1 class="visually-hidden">
+          Ostrovsky Maxim, Junior Front-end developer
+        </h1>
+        <p class="greeting_text scroll-item">
+          Hi, my name is <span class="text-color typed"></span>
+          <br>
+          I'm a Junior Front-end Developer.
+        </p>
+        <a class="btn btn--big greeting_btn scroll-item" href="#about">Know more</a>
+      </div>
+    </section>
+    <!-- greeting -->
+
+    <!-- about -->
+    <section class="about section" id="about">
+      <div class="container about_container">
+        <div class="about_photo scroll-item">
+          <figure class="about_photo-wrapper scroll-show">
+            <picture>
+              <img src="img/photo.jpg" alt="Maxim Ostrovsky photo">
+            </picture>
+          </figure>
+        </div>
+        <div class="scroll-item">
+          <div class="about_content scroll-show">
+            <h2 class="title">About Me</h2>
+            <p class="about_text text">I like to code things from scratch, and enjoy bringing ideas to life
+              in the browser. Interested in working on ambitious projects with positive people.</p>
+            <p class="about_text text">Skills can be taught, personality is inherent. I prefer to keep
+              learning, continue challenging myself and do interesting things.</p>
+            <a class="btn" href="#" target="_blank">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / about -->
+
+    <!-- courses -->
+    <section class="courses section" id="courses">
+      <div class="container container--m">
+        <h2 class="title courses_title scroll-item">Courses</h2>
+        <ul class="courses_list">
+          <li class="courses_item scroll-item">
+            <div class="courses_card icon-language scroll-show">
+              <h3 class="courses_name subtitle">English</h3>
+              <p class="courses_company">English Galaxy</p>
+              <div class="courses_description">
+                <p>Pre-Intermediate level</p>
+              </div>
+            </div>
+          </li>
+          <li class="courses_item scroll-item">
+            <div class="courses_card icon-file-code scroll-show">
+              <h3 class="courses_name subtitle">JavaScript</h3>
+              <p class="courses_company">RS School, Udemy, codewars</p>
+              <div class="courses_description">
+                <p>JavaScript/front-end 2021Q1.</p>
+                <p>WEB Developer 2021.</p>
+                <p>The Complete JavaScript + React Course.</p>
+              </div>
+            </div>
+          </li>
+          <li class="courses_item scroll-item">
+            <div class="courses_card icon-paintbrush scroll-show">
+              <h3 class="courses_name subtitle">HTML, CSS</h3>
+              <p class="courses_company">Udemy, YouTube
+              </p>
+              <div class="courses_description">
+                <p>Modern HTML & CSS From The Beginning (Including Sass).</p>
+                <p>All about HTML - layout of sites (Front End).</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- / courses -->
+
+    <!-- skills -->
+    <section class="skills section " id="skills">
+      <div class="skills_container scroll-item">
+        <ul class="swiper-wrapper">
+          <li class="skills_item swiper-slide icon-html">html</li>
+          <li class="skills_item swiper-slide icon-css">css</li>
+          <li class="skills_item swiper-slide icon-js">javascript</li>
+          <li class="skills_item swiper-slide icon-sass">sass</li>
+          <li class="skills_item swiper-slide icon-git">Git</li>
+          <li class="skills_item swiper-slide icon-figma">figma</li>
+          <li class="skills_item swiper-slide icon-photoshop">photoshop</li>
+          <li class="skills_item swiper-slide icon-terminal">terminal</li>
+        </ul>
+      </div>
+    </section>
+    <!-- / skills -->
+
+    <!-- code example -->
+    <section class="code-example section" id="code">
+      <div class="container container--s">
+        <h2 class="code-example_title title scroll-item">Code example</h2>
+        <p class="code-example_subtitle subtitle scroll-item">Remove all vowels from the string</p>
+        <pre class="code-example_card scroll-item">
+            <code class="language-js">
+              function disemvowel(str) {
+  
+                const vowels = ['a', 'e', 'i', 'o', 'u']
+                let resultStr = str;
+                  
+                for(let i = 0; i < str.length; i++) {
+                  vowels.forEach((vowel) => {
+                    if (str[i].toLowerCase() === vowel) {
+                      resultStr = resultStr.replace(str[i], '')
+                    }
+                  })
+                }
+                return resultStr;
+              }
+            </code>
+          </pre>
+      </div>
+    </section>
+    <!-- / code example -->
+
+    <!-- portfolio -->
+    <section class="portfolio section" id="portfolio">
+      <div class="container container--m">
+        <h2 class="title portfolio_title scroll-item">My Recent Work</h2>
+        <p class="subtitle portfolio_subtitle scroll-item">Here are a few projects I've worked on recently. You can see
+          more
+          <a href="https://github.com/MadPapaya" title="Github MadPapaya" target="_blank">here</a>
+        </p>
+        <ul class="portfolio_list">
+          <li class="portfolio_item scroll-item">
+            <figure class="portfolio_card">
+              <div class="portfolio_card-img">
+                <img src="img/portfolio_1.jpg" alt="portfolio #1">
+              </div>
+              <figcaption class="portfolio_card-about">
+                <h3 class="portfolio_card-title subtitle">Photo-filter</h3>
+                <p class="portfolio_card-description">applying css filters to photos</p>
+                <a class="portfolio_card-link btn" target="_blank"
+                  href="https://rolling-scopes-school.github.io/madpapaya-JSFE2021Q1/photo-filter/">View
+                  project</a>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="portfolio_item scroll-item">
+            <figure class="portfolio_card">
+              <div class="portfolio_card-img">
+                <img src="img/portfolio_2.jpg" alt="portfolio #2">
+              </div>
+              <figcaption class="portfolio_card-about">
+                <h3 class="portfolio_card-title subtitle">Online-Zoo</h3>
+                <p class="portfolio_card-description">responsive, accessible, flex, slick, svg</p>
+                <a class="portfolio_card-link btn" target="_blank"
+                  href="https://rolling-scopes-school.github.io/madpapaya-JSFE2021Q1/online-zoo/pages/landing/">View
+                  project</a>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="portfolio_item scroll-item">
+            <figure class="portfolio_card">
+              <div class="portfolio_card-img">
+                <img src="img/portfolio_3.jpg" alt="portfolio #3">
+              </div>
+              <figcaption class="portfolio_card-about">
+                <h3 class="portfolio_card-title subtitle">Wildlife landing</h3>
+                <p class="portfolio_card-description">sass, responsive, optimized, accessible, grid, flex, swiper</p>
+                <a class="portfolio_card-link btn" target="_blank"
+                  href="https://rolling-scopes-school.github.io/madpapaya-JSFE2021Q1/wildlife/">View project</a>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="portfolio_item scroll-item">
+            <figure class="portfolio_card">
+              <div class="portfolio_card-img">
+                <img src="img/portfolio_4.jpg" alt="portfolio #4">
+              </div>
+              <figcaption class="portfolio_card-about">
+                <h3 class="portfolio_card-title subtitle">Virtual Piano</h3>
+                <p class="portfolio_card-description">allows to add and delete messages</p>
+                <a class="portfolio_card-link btn" target="_blank"
+                  href="https://rolling-scopes-school.github.io/madpapaya-JSFE2021Q1/virtual-piano/">View project</a>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- / portfolio -->
+
+    <!-- experience -->
+    <section class="experience section" id="experience">
+      <div class="container container--m">
+        <div class="experience_inner">
+
+          <h2 class="title experience_title scroll-item">My Education</h2>
+          <ul class="experience_list">
+            <li class="experience_item scroll-item">
+              <a class="experience_card scroll-show" href="https://www.udemy.com/" target="_blank">
+                <div>
+                  <h3 class="experience_card-title subtitle">Udemy courses</h3>
+                  <p class="experience_card-date">
+                    <time datetime="2021-07">07/2021</time>
+                  </p>
+                  <p class="experience_card-description">Some courses about Front-end</p>
+                </div>
+              </a>
+            </li>
+            <li class="experience_item scroll-item">
+              <a class="experience_card scroll-show" href="https://rs.school/js/" target="_blank">
+                <div>
+                  <h3 class="experience_card-title subtitle">The Rolling Scopes School</h3>
+                  <p class="experience_card-date"><time datetime="2021-01">01/2021</time> - <time
+                      datetime="2021-06">06/2021</time>
+                  </p>
+                  <p class="experience_card-description">JavaScript/Front-end course</p>
+                </div>
+              </a>
+            </li>
+            <li class="experience_item scroll-item">
+              <a class="experience_card scroll-show" href="" target="_blank" onclick="return false">
+                <div>
+                  <h3 class="experience_card-title subtitle">self-education in the field of programming</h3>
+                  <p class="experience_card-date"><time datetime="2018">2018</time> - <time datetime="2020">2020</time>
+                  </p>
+                  <p class="experience_card-description">Learned basic programming in C++ and JavaScript</p>
+                </div>
+              </a>
+            </li>
+            <li class="experience_item scroll-item">
+              <a class="experience_card scroll-show"
+                href="https://wikipedia.tel/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B8_%D0%B8_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D1%85_%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9_%D0%91%D0%93%D0%A3"
+                target="_blank">
+                <div>
+                  <h3 class="experience_card-title subtitle">Faculty of Radiophysics and Computer Technologies, BSU</h3>
+                  <p class="experience_card-date"><time datetime="2018">2018</time> - <time datetime="2022">2022</time>
+                  </p>
+                  <p class="experience_card-description">Department of Quantum Radiophysics and Optoelectronics</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- experience -->
+
+    <!-- additionally -->
+    <section class="additionally section" id="additionally">
+      <div class="container container--m">
+        <div class="about_content scroll-item scroll-show">
+          <h2 class="title">More About Me</h2>
+          <p class="about_text text">From childhood I was well versed with mathematics, loved technical subjects and, as
+            the teachers said, had good logical thinking. My dream and main goal is to become a frontend/javascript
+            developer.</p>
+          <p class="about_text text">I am attracted to programming by the fact that it is a rather creative job with a
+            huge potential for professional development and career perspectives. I am interested in studying various
+            algorithms, write sites. When I do this, I feel satisfaction in my results, which motivates me to move on
+            and do more and better. It gives me pleasure to engage in intellectual work. I do not give up when I have
+            problems and I really like to pay attention to detail in the process, that is why I believe that this
+            direction is ideal for me.</p>
+        </div>
+      </div>
+    </section>
+    <!-- additionally -->
+  </main>
+
+  <!-- contacts -->
+  <footer class="contacts section" id="contacts">
+    <div class="container container--s contacts_container">
+      <a class="arrow-up" href="#greeting">
+      </a>
+      <p class="contacts_slogan scroll-item">Living, learning, & leveling up one day at a time.</p>
+      <ul class="contacts_list scroll-item">
+        <li>
+          <a class="contacts_link icon-email scroll-show" href="mailto:weekofkex@gmail.com" target="_blank"
+            title="weekofkex@gmail.com">
+            <span class="visually-hidden">email</span>
+          </a>
+        </li>
+        <li>
+          <a class="contacts_link icon-phone scroll-show" href="tel:+375255337774" target="_blank"
+            title="+375 (25) 533-77-74">
+            <span class="visually-hidden">phone</span>
+          </a>
+        </li>
+        <li>
+          <a class="contacts_link icon-telegram scroll-show" href="https://t.me/Mad_Papaya" target="_blank"
+            title="Mad_Papaya">
+            <span class="visually-hidden">telegram</span>
+          </a>
+        </li>
+        <li>
+          <a class="contacts_link icon-linkedin scroll-show" href="https://www.linkedin.com/in/MadPapaya/"
+            target="_blank" title="MadPapaya">
+            <span class="visually-hidden">linkedin</span>
+          </a>
+        </li>
+        <li>
+          <a class="contacts_link icon-github scroll-show" href="https://github.com/MadPapaya" target="_blank"
+            title="MadPapaya">
+            <span class="visually-hidden">github</span>
+          </a>
+        </li>
+      </ul>
+      <div class="copyright"><span>&copy;</span> 2021 - Template developed by <a href=""
+          onclick="return false">MadPapaya</a></div>
+    </div>
+  </footer>
+  <!-- / contacts -->
+
+  <script src="js/typed.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/vanilla-tilt.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
