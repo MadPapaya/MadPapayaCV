@@ -2,8 +2,8 @@
 
 let header = document.querySelector(".header");
 let burgerBtn = document.querySelector(".burger");
-let navLinks = document.querySelectorAll(".nav_link");
-let skillsItems = document.querySelectorAll(".skills_item");
+let navLinks = document.querySelectorAll(".nav__link");
+let skillsItems = document.querySelectorAll(".skills__item");
 let skills = document.querySelector(".skills");
 
 // -----------  mobile or not  -----------
@@ -88,7 +88,7 @@ window.addEventListener("scroll", () => {
 
   for (let i = 0; i < sections.length; i++) {
     let sectionPosition = sections[i].offsetTop - 150;
-    let navItems = document.querySelectorAll(".nav_item");
+    let navItems = document.querySelectorAll(".nav__item");
 
     if (i == 8) {
       sectionPosition = sections[i].offsetTop - 450;
@@ -97,11 +97,11 @@ window.addEventListener("scroll", () => {
     }
 
     if (sectionPosition - header.clientHeight < scrollDistance) {
-      navItems[i].querySelector("a").classList.add("nav_link--active");
+      navItems[i].querySelector("a").classList.add("nav__link--active");
 
       for (let navLink of navLinks) {
         if (navLink != navItems[i].querySelector("a")) {
-          navLink.classList.remove("nav_link--active");
+          navLink.classList.remove("nav__link--active");
         }
       }
     }
@@ -183,7 +183,7 @@ var typed = new Typed(".typed", {
 // -----------  sliders  -----------
 
 // Инициализируем swiper
-let swiper = new Swiper(".skills_container", {
+let swiper = new Swiper(".skills__container", {
   loop: true,
   speed: 3000,
   slidesPerView: 2,
@@ -240,7 +240,7 @@ skills.addEventListener("mouseout", () => {
 // https://micku7zu.github.io/vanilla-tilt.js/
 
 if (!isMobile.any()) {
-  VanillaTilt.init(document.querySelectorAll(".portfolio_card"), {
+  VanillaTilt.init(document.querySelectorAll(".portfolio__card"), {
     max: 20,
     speed: 600,
     // reverse: true,
