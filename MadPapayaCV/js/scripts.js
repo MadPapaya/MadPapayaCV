@@ -220,6 +220,11 @@ let swiper = new Swiper(".skills__container", {
       slidesPerView: 8,
       speed: 6000,
     },
+
+    1920: {
+      slidesPerView: 9,
+      speed: 6000,
+    },
   },
 
   grabCursor: true,

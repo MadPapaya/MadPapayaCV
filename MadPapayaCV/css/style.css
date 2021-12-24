@@ -412,24 +412,24 @@ body {
     min-height: 100vh;
 }
 
-.greeting_container {
+.greeting__container {
     width: 100%;
 }
 
 @media (max-width: 1199px) {
-    .greeting_container {
+    .greeting__container {
         padding-left: 50px;
     }
 }
 
 @media (max-width: 991px) {
-    .greeting_container {
+    .greeting__container {
         padding-left: 0;
     }
 }
 
 @media (max-width: 575px) {
-    .greeting_container {
+    .greeting__container {
         max-width: 400px;
         padding-left: 20px;
     }

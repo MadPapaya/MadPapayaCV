@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "iconsfont";
-  src: url("../fonts/iconsfont.eot?oswi10");
-  src: url("../fonts/iconsfont.eot?oswi10#iefix") format("embedded-opentype"),
-    url("../fonts/iconsfont.ttf?oswi10") format("truetype"),
-    url("../fonts/iconsfont.woff?oswi10") format("woff"),
-    url("../fonts/iconsfont.svg?oswi10#iconsfont") format("svg");
+  font-family: 'iconsfont';
+  src:  url('../fonts/iconsfont.eot?ea6ik9');
+  src:  url('../fonts/iconsfont.eot?ea6ik9#iefix') format('embedded-opentype'),
+    url('../fonts/iconsfont.ttf?ea6ik9') format('truetype'),
+    url('../fonts/iconsfont.woff?ea6ik9') format('woff'),
+    url('../fonts/iconsfont.svg?ea6ik9#iconsfont') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,7 +13,7 @@
 [class^="icon-"]::before,
 [class*=" icon-"]::before {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "iconsfont" !important;
+  font-family: 'iconsfont' !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -25,20 +25,23 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-telegram:before {
+.icon-react:before {
   content: "\e900";
 }
-.icon-email:before {
+.icon-telegram:before {
   content: "\e901";
 }
-.icon-github:before {
+.icon-email:before {
   content: "\e902";
 }
-.icon-linkedin:before {
+.icon-github:before {
   content: "\e903";
 }
-.icon-phone:before {
+.icon-linkedin:before {
   content: "\e904";
+}
+.icon-phone:before {
+  content: "\e905";
 }
 .icon-css:before {
   content: "\e913";
@@ -63,9 +66,6 @@
 }
 .icon-language:before {
   content: "\e91a";
-}
-.icon-less:before {
-  content: "\e91b";
 }
 .icon-paintbrush:before {
   content: "\e91c";
